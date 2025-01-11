@@ -1,0 +1,95 @@
+object Form1: TForm1
+  Left = -8
+  Height = 1017
+  Top = -8
+  Width = 1920
+  Caption = 'Form1'
+  ClientHeight = 1017
+  ClientWidth = 1920
+  LCLVersion = '3.6.0.0'
+  object Pridat: TButton
+    Left = 48
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Pridat'
+    TabOrder = 0
+    OnClick = PridatClick
+  end
+  object Zmenit: TButton
+    Left = 48
+    Height = 25
+    Top = 78
+    Width = 75
+    Caption = 'Zmenit'
+    TabOrder = 1
+    OnClick = ZmenitClick
+  end
+  object Odstranit: TButton
+    Left = 48
+    Height = 25
+    Top = 118
+    Width = 75
+    Caption = 'Odstranit'
+    TabOrder = 2
+    OnClick = OdstranitClick
+  end
+  object Pridatt: TButton
+    Left = 168
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Pridatt'
+    TabOrder = 3
+    OnClick = PridattClick
+  end
+  object Pacient: TLabel
+    Left = 64
+    Height = 15
+    Top = 13
+    Width = 39
+    Caption = 'Pacient'
+    OnClick = PacientClick
+  end
+  object Sken: TLabel
+    Left = 192
+    Height = 15
+    Top = 13
+    Width = 25
+    Caption = 'Sken'
+  end
+  object Zaznam: TLabel
+    Left = 312
+    Height = 15
+    Top = 16
+    Width = 42
+    Caption = 'Zaznam'
+  end
+  object Odstranit1: TButton
+    Left = 168
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Odstranit1'
+    TabOrder = 4
+    OnClick = OdstranitClick
+  end
+  object Pridatt1: TButton
+    Left = 296
+    Height = 25
+    Top = 40
+    Width = 75
+    Caption = 'Pridatt1'
+    TabOrder = 5
+    OnClick = PridattClick
+  end
+  object Odstranit2: TButton
+    Left = 296
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Odstranit2'
+    TabOrder = 6
+    OnClick = OdstranitClick
+  end
+end

@@ -1,0 +1,84 @@
+object Form2: TForm2
+  Left = 671
+  Height = 240
+  Top = 151
+  Width = 320
+  Caption = 'Form2'
+  ClientHeight = 240
+  ClientWidth = 320
+  OnCreate = FormCreate
+  LCLVersion = '3.6.0.0'
+  object Save: TButton
+    Left = 120
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'Save'
+    TabOrder = 0
+    OnClick = SaveClick
+  end
+  object Meno: TLabel
+    Left = 25
+    Height = 15
+    Top = 24
+    Width = 31
+    Caption = 'Meno'
+  end
+  object Datum_Narodenia: TLabel
+    Left = 24
+    Height = 15
+    Top = 96
+    Width = 96
+    Caption = 'Datum_Narodenia'
+    OnClick = Datum_NarodeniaClick
+  end
+  object Edit1: TEdit
+    Left = 128
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 1
+    OnChange = Edit1Change
+  end
+  object Edit2: TEdit
+    Left = 128
+    Height = 23
+    Top = 64
+    Width = 80
+    TabOrder = 2
+    OnChange = Edit2Change
+  end
+  object Priezvisko: TLabel
+    Left = 24
+    Height = 15
+    Top = 64
+    Width = 52
+    Caption = 'Priezvisko'
+    OnClick = PriezviskoClick
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 23
+    Top = 96
+    Width = 80
+    TabOrder = 3
+    Text = 'dd / mm / rrrr '
+    OnChange = Edit1Change
+  end
+  object Rodne_cislo: TLabel
+    Left = 33
+    Height = 15
+    Top = 134
+    Width = 63
+    Caption = 'Rodne_cislo'
+    OnClick = Rodne_cisloClick
+  end
+  object Edit4: TEdit
+    Left = 128
+    Height = 23
+    Top = 134
+    Width = 80
+    TabOrder = 4
+    OnChange = Edit4Change
+  end
+end
